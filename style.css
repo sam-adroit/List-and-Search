@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background: rgb(74, 170, 74);
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+
+.add-list-items {
+  width: 80%;
+  margin: 0.6em auto;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  border: 1px solid black;
+  margin-top: 1em;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7em;
+}
+
+.list-item:not(.last) {
+  border-bottom: 1px solid black;
+}
+
+.delete {
+  border: 0;
+  width: 25px;
+  height: 25px;
+  background: red;
+  color: white;
+  font-weight: bolder;
+  border-radius: 50%;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List and Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container flex">
+        <h1>List-and-Search</h1>
+        <input type="text" placeholder="Search Item" id="search" />
+      </div>
+    </header>
+    <div class="add-list-items">
+      <h2>Add Items</h2>
+      <form id="add-form">
+        <input type="text" placeholder="Add Item" id="input" required />
+        <button>Add Item</button>
+      </form>
+      <ul class="list" id="list">
+        <li class="list-item">
+          <p>Item 1</p>
+          <button class="delete" id="delete1">X</button>
+        </li>
+        <li class="list-item">
+          <p>Item 2</p>
+          <button class="delete" id="delete2">X</button>
+        </li>
+        <li class="list-item">
+          <p>Item 3</p>
+          <button class="delete" id="delete3">X</button>
+        </li>
+        <li class="list-item">
+          <p>Item 4</p>
+          <button class="delete" id="delete4">X</button>
+        </li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
